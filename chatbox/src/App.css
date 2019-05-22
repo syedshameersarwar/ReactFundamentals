@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+  /* color: #306482; */
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50px;
+}
+
+.App-header {
+  background-color: #222;
+  /* height: 100px; */
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.App-header p {
+  margin: 4px 0 0 0;
+}
+
+.App-title {
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-main {
+  margin: 0 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* component styles */
+.container {
+  display: flex;
+  margin: auto;
+  width: 60%;
+  margin-top: 5%;
+  padding: 10;
+}
+
+.chat-window {
+  text-align: center;
+  width: 75%;
+  height: 400;
+  margin: 0 5px;
+  border: 15px solid #2eb9ce;
+  padding: 20px;
+  border-radius: 10px;
+  color: #019ad2;
+  font-size: 1.2em;
+}
+
+.centered {
+  position: fixed;
+  left: 50%;
+}
+
+.message-list {
+  list-style-type: none;
+  height: 80%;
+  border: 1px solid;
+  text-align: left;
+  min-height: 260px;
+  border-radius: 10px;
+  padding-top: 1em;
+  padding-inline-start: 20px;
+}
+
+.message-list p {
+  margin-bottom: 0.2rem;
+}
+
+.name {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.4em;
+  text-align: center !important;
+}
+
+.input-group,
+.input-group-append {
+  border-radius: 10px;
+  color: #2eb9ce !important;
+}
+
+.submit-button {
+  border-radius: 10px;
+  width: 100px; 
+  height: 30px;	
+  background-color: #2eb9ce;
+  color: black;
+}
+
+button:disabled,
+button:disabled:hover{
+  border-radius: 10px;
+  width: 100px; 
+  height: 30px;
+  color:white;
+  background-color: grey;
+  border-color:grey;	
+}
+
+.submit-button:hover,
+.submit-button:active,
+.submit-button:focus {
+  border-radius: 10px;
+  border-color: #2eb9ce;
+  color: black;
+  outline: none !important;
+  box-shadow: none;
+  background-color: #3498db;
+}
+
+.form-control,
+.form-control:focus {
+  border-color: #2eb9ce;
+  outline: 0 !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 40px;
+  width:300px;
+  background-color:#72A4D2;
+  border-radius: 10px;
+  font-size:22px;
+  color: #0F0F0F;
+}
+
+.sender {
+  color: #29a979;
+}
+
+.recipient {
+  color: #019ad2;
+}

@@ -1,0 +1,18 @@
+import React, { Component } from 'react';
+import FavouriteMovie from './FavMovies';
+import {profiles, users, movies} from './data';
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <h1 style = {{textAlign: 'center'}}>Favorite Movies</h1>
+        
+        <FavouriteMovie profiles = {profiles} users = {users} movies = {movies}/>
+
+      </div>
+    );
+  }
+}
+
+export default App;

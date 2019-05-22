@@ -1,0 +1,10 @@
+import React from 'react';
+
+
+function Question(props){
+    return (
+        <p>{props.X} + {props.Y} + {props.Z} = {props.proposedAnswer}</p>
+    );
+}
+
+export default Question;
